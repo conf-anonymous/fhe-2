@@ -78,3 +78,9 @@ Decrypt c1_mul_c2:
 As a result you should get:
 
 `=> (48279/1)`
+
+## Simulation
+
+A simulation is written in form of an automated test in `test/simulation_test.rb`. To run just this test, execute the following:
+
+`$ ruby -Itest test/simulation_test.rb`
